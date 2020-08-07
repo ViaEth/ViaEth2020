@@ -1,0 +1,79 @@
+/*
+Theme Name:   ViaEth2020
+Theme URI:    https://www.ViaEth.io
+Description:  TwentySeventeen based child theme for www.ViaEth.com, started in 2020.
+Author URI:   https://www.ViaEth.com
+Template:     twentyseventeen
+Version:      1.0.0
+*/
+
+body.page-template-template-full-width #content #primary {
+	max-width: 100%;
+}
+
+body.page-template-template-full-width #content #primary .entry-content {
+    float: none;
+    width: 100%;
+}
+
+body.page-template-template-full-width .entry-header {
+	display: none;
+}
+
+.site-info {
+	display: none;
+}
+
+.site-content {
+	padding: 1em 0 0;
+}
+
+/*Start Search Bar Styling*/
+@media screen and (min-width: 30em) {
+	.wp-block-search {
+		display: flex;
+		flex-wrap: unset;
+		margin-left: 23%;
+		margin-right: 23%;
+	}
+}
+
+.wp-block-search {
+	display: flex;
+	flex-wrap: unset;
+}
+/*End Search Bar Styling*/
+
+
+.woocommerce-breadcrumb {
+	display: none;
+}
+
+.woocommerce-products-header {
+	display: none;
+}
+
+.tabs.wc-tabs {
+	display: none;
+}
+
+/*Start three footer widget areas*/
+@media screen and (min-width: 30em) {
+	.site-footer .widget-column.footer-widget-1 {
+		float: left;
+		width: 32%;
+		margin-right: 2%;
+	}
+
+	.site-footer .widget-column.footer-widget-2 {
+		float: left;
+		width: 32%;
+		margin-right: 2%;
+	}
+	
+	.site-footer .widget-column.footer-widget-3 {
+		float: right;
+		width: 32%;
+	}
+}
+/*End three footer widget areas*/
